@@ -3,13 +3,12 @@ package ba.unsa.etf.rpr;
 import java.util.Scanner;
 
 public class Main {
-
     private static int sumaCifara(int x)
     {
         int suma = 0;
         while(x!=0)
         {
-          suma+=x%10;
+          suma+=x % 10;
           x/=10;
         }
         return suma;
