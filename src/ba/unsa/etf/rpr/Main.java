@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static int sumaCifara(int x)
+    private static int sumaCifara(int x)
     {
         int suma = 0;
         while(x!=0)
